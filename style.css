@@ -1,0 +1,195 @@
+html{
+    background: url(https://www.evernote.com/redesign/global/img/settings-bg.jpeg) repeat;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica Neue", "DejaVu Sans", "Verdana", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+.speech{
+    padding: 1em;
+    border-radius: 1px;
+    background-color: white;
+    0-webkit-box-shadow: 0px 1px 3px rgba(65,55,45,0.3);
+            0box-shadow: 0px 1px 3px rgba(65,55,45,0.3);
+    outline: solid 1px rgba(65,55,45,0.2);
+}
+    .speech-title{
+        position: -webkit-sticky;
+        position: sticky;
+        margin: 0 -1em .5em -1em;
+        padding: 0 0 .5em 0;
+        font-size: 1em;
+        text-align: center;
+        line-height: 1.5;
+        border-bottom: 1px dashed #e3e2e1;
+        background: white;
+        top: 0;
+    }
+     .speech-authorName:empty
+    ,.speech-date:empty
+    ,.speech-labels:empty
+    ,.speech-masters:empty
+    ,.speech-slaves:empty
+    ,.speech-title:empty {
+        display:none;
+    }
+    .speech .content{
+        display: block;
+        font-size: .875em;
+        text-align: justify;
+        text-justify: distribute-all-lines;/*ie6-8*/
+        text-align-last: justify;/* ie9*/
+        -moz-text-align-last: justify;/*ff*/
+        -webkit-text-align-last: justify;/*chrome 20+*/
+        white-space: pre;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        padding: 0 0 1.5em 0;
+    }
+    .speech video{
+        margin: 0;
+        padding: 0;
+        border-radius: .25em;
+        overflow: hidden;
+        background: #999;
+    }
+    .speech audio{
+        margin: 0;
+        padding: 0;
+        border-radius: 2px;
+        background: #999;
+    }
+    .speech code{
+        font-family: "Courier new";
+    }
+    .speech output{
+        display: block;
+        padding: 0;
+        font-family: "Courier new";
+        color: white;
+        background: gray;
+        border-radius: 2px;
+    }
+    .speech output:before{
+        content: "output:";
+        display: block;
+        position: absolute;
+        margin: -1.25em 0 .25em 0;
+        color: gray;
+    }
+    .speech code[lang=latex]{
+        /*use latex font-family*/
+    }
+    .speech-info{
+        display: inline-block;
+        float: left;
+        white-space: normal;
+        margin: 0 1em .25em .25em;
+        width: 5.5em;
+        text-align: right;
+    }
+    .speech-authorAvatar {
+        display: inline-block;
+        -webkit-border-radius: 2px;
+                border-radius: 2px;
+        width: 3em;
+        height: 3em;
+        background: gray;
+    }
+    .speech-authorName {
+        display: inline-block;
+        font-size: .5em;
+        margin: .25em 0;
+        padding: .25em .5em;
+        white-space: nowrap;
+        border-radius: 2px;
+        background: hsla(189,100%,86%,1);
+        color: hsla(9,50%,20%,1);
+    }
+    .speech-date{
+        display: inline-block;
+        font-size: .5em;
+        margin: .25em 0;
+        padding: .25em .5em;
+        white-space: nowrap;
+        border-radius: 2px;
+        background: hsla(130,100%,86%,1);
+        color: hsla(310,50%,15%,1);
+    }
+    .speech-labels{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .speech-label{
+        display: inline-block;
+        font-size: .5em;
+        margin: .25em 0;
+        padding: .25em .5em;
+        border-radius: 2px;
+        vertical-align: middle;
+        background: hsla(93,100%,86%,1);
+        color: hsla(273,50%,40%,1);
+    }
+    .speech-masters{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .speech-master{
+        display: inline-block;
+        border-radius: 2px;
+        font-size: .5em;
+        margin: .25em 0;
+        padding: .25em .5em;
+        vertical-align: middle;
+        background: hsla(70,100%,86%,1);
+        color: hsla(350,50%,20%,1);
+    }
+    .speech-slaves{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .speech-slave{
+        display: inline-block;
+        border-radius: 2px;
+        font-size: .5em;
+        margin: .25em 0;
+        padding: .25em .5em;
+        vertical-align: middle;
+        background: hsla(50,100%,86%,1);
+        color: hsla(230,50%,30%,1);
+
+    }
+    .speech-feedback {
+        position: fixed;
+        display: -webkit-box;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: .5em;
+        border-top: solid 1px rgba(65,55,45,0.2);
+        background: white;
+    }
+    .speech-select {
+        display: -webkit-box;
+    }
+    .speech-comment {
+        display: -webkit-box;
+        -webkit-box-flex: 1;
+        border: none;
+        padding: .5em;
+        background: rgba(65,55,45,0.2);
+    }
+    .speech-comment:focus {
+        outline: none;
+    }
+    .speech-send {
+        display: -webkit-box;
+    }
+.speech--status .speech-title {
+
+}
+
+

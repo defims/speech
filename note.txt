@@ -1,0 +1,10 @@
+database
+table   -> class
+row     -> object
+
+[{}] []
+
+todo:
+
+* position:sticky
+* form target 针对相应的对象评论，如图片、文字、视频、声音等类似selection的标注，以及针对video、audio的时间轴标注

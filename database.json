@@ -1,0 +1,33 @@
+{
+    "speeches"  : [
+        {
+            "attribute"     : "value",
+            "title"         : "title",
+            "date"          : "Date()",
+            "content"       : "content",
+            "relationship"  : "link to target",
+            "author"        : "link to defims",
+            "masteres"      : "link to speech",
+            "slaves"        : "link to speeches",
+            "labels"        : [
+                "class",
+                "Lable()"
+            ],
+            "appraisal"     : {
+                "good"  : .9
+            },
+            "share"         : [
+                "QQ"
+            ]
+        }
+    ],
+    "users"     : [
+        {
+            "firstName"     : "defims",
+            "lastName"      : "loong",
+            "birthday"      : "Date()",
+            "avatar"        : "Avatar()",
+            ""
+        }
+    ]
+}
